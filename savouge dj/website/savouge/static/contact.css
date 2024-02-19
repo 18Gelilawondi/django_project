@@ -1,0 +1,94 @@
+body {
+    font-family: initial;
+    background-color: wheat;
+
+}
+.section-title{
+    margin-bottom: 10vh;
+    margin-top: 0;
+    margin-left: 0%;  
+    background-color: #333;
+    color: darkgray;
+    font-style: italic;
+    font-weight:initial
+}
+.navbar-expand-lg{
+    font-weight: lighter;
+    font-size: 20px;
+    color: whitesmoke;
+    font-style: normal;
+    background-color: #333;
+}
+h1{
+    margin-bottom: 50px;
+    background-color: #333;
+    color: antiquewhite;
+    font-family: initial;
+    font-weight: bold;
+}
+p{
+    font-style: oblique;
+    font-size: larger;
+}
+
+h2{
+    background-color: #333;
+    color: darkgray;
+    font-style: italic;
+    font-weight:initial
+}
+
+h3{
+    text-size:70px;
+    }
+main.contact {
+    padding: 20px;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    background-color: whitesmoke;
+    box-shadow: 5px 8px darkgrey;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

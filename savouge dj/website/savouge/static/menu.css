@@ -1,0 +1,73 @@
+body {
+    font-family: initial;
+    background-color: wheat;
+    
+}
+.card {
+    margin-bottom: 20px;
+    background-color: darkgray;
+    border-radius: 15px;
+    box-shadow: 8px 5px gray;
+}
+h1{
+    margin-bottom: 50px;
+    background-color: #333;
+    color: antiquewhite;
+    font-family: initial;
+    font-weight: bold;
+    padding: 30px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.card-text {
+    font-size: 16px;
+    color: antiquewhite;
+    
+}
+.card a {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.btn-sm{
+    background-color: wheat;
+}
+.section-title{
+    margin-bottom: 10vh;
+    margin-top: 0;
+    margin-left: 0%;
+    margin-bottom: 10vh;
+    margin-top: 0;
+    margin-left: 0%;
+    background-color: #333;
+    color: darkgray;
+    font-style: italic;
+    font-weight:initial
+}
+.footer{
+    background-color: #333;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0px;
+ 
+    bottom: 0;
+    width: 100%;
+}
+p{
+    font-style: oblique;
+    font-size: larger;
+}
+.navbar-expand-lg{
+    font-weight: lighter;
+    font-size: 20px;
+    color: whitesmoke;
+    font-style: normal;
+}

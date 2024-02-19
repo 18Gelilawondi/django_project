@@ -1,0 +1,45 @@
+{%load static%}
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{%static 'contact.css'%}">
+</head>
+<body data-bs-theme ="dark">
+    {%include "header.html"%}
+    <h1>Contact</h1>
+
+<main class="contact">
+    <section class="contact-info">
+        <h2>Contact Us</h2>
+        <p>Address: Addis Ababa, Ethiopia</p>
+        <p>Phone: +251 964 558 602</p>
+        <p>Email: Sauvagerestaurant@gmail.com</p>
+    </section>
+
+    <section class="contact-form">
+        <h3>Get In Touch</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Sauvage restaurant</p>
+</footer>
+</body>
+
+</html>
